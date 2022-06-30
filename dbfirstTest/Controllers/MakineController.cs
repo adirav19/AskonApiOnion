@@ -25,7 +25,7 @@ namespace dbfirstTest.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetVardiya()
         {
-            
+            //return Ok("MERHABA");
             return Ok(gunlukMakineReadRepoasitory.GetAll(false));
         }
         
